@@ -36,7 +36,6 @@ int main(void){
 	uint16 last_read=999;
 	uint16 speed_last=999;
 	uint8 crash_flag=1;
-	LCD_displayStringRowColumn(0, 0, "Task for CUERT");
 	LCD_displayStringRowColumn(1, 0, "Mohamed  Magdy");
 	_delay_ms(4000);
 	LCD_clearScreen();
@@ -127,3 +126,4 @@ int main(void){
 	}
 
 }
+
